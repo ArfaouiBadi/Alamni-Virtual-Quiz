@@ -1,51 +1,51 @@
 Question,Choice1,Choice2,Choice3,Choice4,Answer
-What is the significance of the `.java` extension when saving a Java file?,It indicates the file is a compiled bytecode file.,It signifies that the file contains only comments.,It designates the file as a source code file written in Java.,It is simply a naming convention with no specific meaning.,3
-Why can't a `.java` file be directly executed by the Java compiler?,The compiler is designed only to work with bytecode files.,The `.java` file lacks the necessary metadata for execution.,The compiler requires a separate interpreter to process `.java` files.,The `.java` file needs to be translated into bytecode first.,4
-What is the primary purpose of the `public class Example1` declaration in the provided code example?,To define a variable named Example1.,To create a method called Example1.,To declare a class named Example1.,To initiate a comment block.,3
-What does the `main` function in the example code represent?,A variable that stores the program's output.,A data type used for input/output operations.,A set of instructions grouped together as a method.,A comment describing the program's functionality.,3
-What is the role of the semicolon (`;`) at the end of the `System.out.println(...)` statement?,It marks the end of a comment.,It signals the end of a statement in Java.,It indicates the start of a new block of code.,It separates different data types within a statement.,2
-"Based on the text, what is the lowest level of abstraction in computer memory?",Transistors,Bytes,Atoms,Bits,3
-"How is information represented at a higher level of abstraction, such as in transistors?",Alphabets,Decimal numbers,A collection of 0's and 1's,Hexadecimal codes,3
-What is the role of the `/* ... */` in the provided code?,It defines a new method.,It denotes a single-line comment.,It marks a multi-line comment.,It introduces a class declaration.,3
-What does the text imply about the relationship between a Java source file and its bytecode?,They are identical files with different extensions.,The bytecode is a human-readable version of the source code.,The source code is a compilation of multiple bytecode files.,"The bytecode is a compiled, machine-readable version of the source code.",4
-"According to the provided text, what executes the bytecode generated from a Java source file?",The Java compiler,The text editor used to write the source code.,An interpreter,The operating system directly,3
-"What is the equivalent of 1 megabyte (MB) in kilobytes (KB), based on the provided information?",1000 KB,1024 KB,20 KB,512 KB,2
-How many bytes are there in 1 gigabyte (GB)?,"1,000,000 bytes","1,048,576 bytes","1,073,741,824 bytes","2,097,152 bytes",3
-"According to the text, what is a bit?",A type of computer virus.,A single 0 or 1 entry in memory.,A unit of measurement for hard drive speed.,A type of programming language.,2
-"Which of the following best describes an expression in programming, as defined in the text?",A single variable.,A single operator.,"A series of variables, operators, and method calls that evaluates to a single value.",A comment in the code.,3
-What is the relationship between bytes and bits?,1 byte = 2 bits,1 byte = 4 bits,1 byte = 8 bits,1 byte = 16 bits,3
-What role does a compiler play in relation to Java code and binary format?,It interprets Java code directly.,It compiles Java code into a higher-level language.,It translates Java code into binary format.,It debugs Java code.,3
-What does the text describe as a variable in programming?,A constant value that cannot change.,An item of data named by an identifier.,A type of operator.,A programming language.,2
-What is the primary function of the Java Virtual Machine (JVM) according to the provided text?,Compiling Java code into binary.,Managing memory.,Translating binary code into human-readable code.,Executing operating system commands.,2
-"Based on the information given, what is 1 GB equivalent to in terms of MB?",1000 MB,1024 MB,20 MB,512 MB,2
-What is a key characteristic of how the same sequence of 0s and 1s can be interpreted in a computer system?,It always represents the same numerical value.,It can represent different things depending on context.,It is only used to represent text.,It is always interpreted as an instruction to the CPU.,2
-"What is the primary function of an identifier in a computer program, based on the provided text?",To reserve memory space for data structures.,To name a location in memory holding a data value.,To define the data type of a variable.,To control the flow of execution in a program.,2
-Which of the following is NOT a valid identifier according to the naming conventions described?,my_variable,_variable,2cool,name$,3
-"According to the text, which category of identifiers includes ""String"", ""System"", ""out"", ""println"", and ""main""?",Identifiers we choose.,Identifiers chosen by other programmers.,Reserved words.,Data type identifiers.,2
-"The text mentions ""case sensitivity"" in identifier naming.  What does this mean?",Uppercase and lowercase letters are interchangeable.,Identifiers must always start with an uppercase letter.,"`unique`, `UNIQUE`, and `uniQUE` are considered different identifiers.",Only lowercase letters are allowed in identifiers.,3
-Which of the following is a reserved word mentioned in the text?,Example1,args,String,public,4
-"Based on the text, what is the role of `System.out.println()` in the provided Java code snippet?",To declare a variable.,To define a new data type.,To print output to the console.,To initiate a loop.,3
-"The text states that computer memory stores ""arbitrary bit patterns."" What does this imply about the nature of data storage?","Data is stored in a specific, predefined format.",Data is stored in a human-readable format.,"Data is stored as a sequence of binary digits, without inherent meaning until interpreted.",Data is stored only as numerical values.,3
-What would happen if you tried to use a reserved word as an identifier in your program?,The compiler would likely issue an error.,The program would run without issue.,A warning would be issued during compilation.,The identifier would be treated as a comment.,1
-Which of the following best describes the purpose of the comment `/* @param args */` in the Java code snippet?,It's a crucial part of the code's execution.,It's a placeholder for future code additions.,It's a form of documentation explaining the purpose of the `args` parameter.,It is an instruction for the compiler to ignore that line of code.,3
-"Why can't an identifier begin with a digit, according to the provided text?",It would conflict with numerical data types.,It's a syntactical rule to avoid ambiguity with numbers.,It would make the code harder to read.,It's not possible to store digits in memory locations used for identifiers.,2
-What is the primary factor determining the meaning of a bit pattern?,The number of bits in the pattern,The physical location of the pattern in memory,Its intended use or data type,The programming language used,3
-How many distinct values can be represented using 10 bits?,10,1024,1000,512,2
-Which of the following is NOT a characteristic of a byte in Java?,It uses 8 bits.,It can represent 256 distinct values.,It can only store positive values.,It's a primitive data type.,3
-What is the purpose of dividing bits in floating-point number representation?,To improve memory efficiency,To represent both positive and negative numbers.,"To store the sign, mantissa, and exponent.",To ensure faster arithmetic operations.,3
-What is the fundamental difference between primitive and object data types in Java?,"Primitive types are faster, object types are slower.","Primitive types are built into Java, object types are user-defined.","Primitive types are always integers, object types can be any type.",Primitive types occupy less memory than object types.,2
-Which variable declaration is syntactically incorrect in Java?,`int x;`,`float y;`,`int float;`,`int myVariable;`,3
-Which of the following variable names is invalid according to Java naming conventions?,`yes_no`,`int2good`,`2good`,`myVariable`,3
-What is the relationship between the number of bits used and the range of values a data type can store?,Linear; doubling the bits doubles the range.,Exponential; doubling the bits squares the range.,Logarithmic; doubling the bits increases the range by a factor of log2.,No direct relationship.,2
-"In the context of the text, what are operands in arithmetic expressions?",Mathematical functions,"Operators such as +, -, *, /",Constants and variables,The results of calculations,3
-Why is it essential to declare variables before using them in Java?,To ensure type safety.,To allocate memory for the variable.,To improve program readability.,To prevent runtime errors.,2
-What will be the value of 'answer' after executing the following code snippet:  `int answer = 17 / 5;`?,3.4,3,4,0,2
-What will be the value of 'answer' after executing the following code snippet: `double answer = 17 / 5;`?,3.4,3,4,3.0,3
-What will be the value of 'answer' after executing the following code snippet: `double answer = 17.0 / 5;`?,3,3.4,4,0,2
-What will be the value of 'answer' after executing the following code snippet: `int answer = 17 % 5;`?,3.4,3,2,0,2
-"If `int a = 5;` and `int b = 2;`, what is the result of `a % b`?",2.5,2,1,0,1
-"Assuming `int a = 2;`, `int b = 2;`, `int c = 3;`, and `int d = 4;`, what is the result of the boolean expression `(a == b) && (c == d)`?",true,false,1,0,2
-"Assuming `int a = 2;`, `int b = 2;`, `int c = 3;`, and `int d = 4;`, what is the result of the boolean expression `(a == b) || (c == d)`?",true,false,1,0,1
-What does the statement `X++;` do to the value of the integer variable X?,Decrements X by 1,Increments X by 1,Sets X to 0,Does nothing,2
-What is the purpose of the `!=` operator in the provided text?,Checks for equality,Checks for inequality,Performs addition,Performs modulus operation,2
-"If `int a = 0;`, what will be the result of the boolean expression `!a`?",false,true,0,1,2
+What is the file extension for Java source code files?,.txt,.java,.class,.exe,2
+What process transforms Java source code into bytecode?,Interpretation,Compilation,Execution,Transliteration,2
+What is the role of the `main` method in a Java program?,It defines the class name.,It handles user input.,It is the entry point of execution.,It manages memory allocation.,3
+"In the provided Java example, what does `System.out.println()` do?",It declares a variable.,It defines a class.,It prints a line of text to the console.,It compiles the code.,3
+What is the purpose of comments in Java code (indicated by `/* ... */`)?,To execute code conditionally.,To improve code readability and documentation.,To define variables.,To create new classes.,2
+"At the lowest level of abstraction, how is information represented in computer memory?",As characters,As integers,As floating-point numbers,As a collection of 0's and 1's,4
+What is the significance of the `public class Example1` declaration?,It defines a variable named Example1.,It declares a method called Example1.,"It declares a class named Example1, and the filename must match this.",It initializes a constant value.,3
+"Based on the text, what is a bytecode file?",The original Java source code.,"The compiled version of Java source code, ready for execution by the Java Virtual Machine (JVM).",A text file containing program comments.,A file containing the program's output.,2
+What is the purpose of the semicolon (;) at the end of a statement in Java?,To indicate the end of a comment.,To separate variables.,To mark the end of a statement.,To define a new function.,3
+"According to the text, can a Java source code file be directly executed by the compiler?","Yes, it compiles directly into machine code.","Yes, after it's been interpreted.","No, it must be translated into bytecode first.","No, it needs to be converted to assembly language first.",3
+"What is the decimal equivalent of 1 kilobyte (KB) in bytes, as defined in the text?",1000 bytes,1024 bytes,1048576 bytes,1073741824 bytes,2
+How many bits constitute one byte?,2,4,8,16,3
+"According to the text, what is a gigabyte (GB) equal to in terms of megabytes (MB)?",1000 MB,1024 MB,2<sup>10</sup> MB,2<sup>20</sup> MB,3
+Which of the following is NOT a data type explicitly mentioned in the provided text?,Integer,Character,Variable,Byte,3
+"What does a compiler do in relation to Java code and binary format, according to the text?",It executes Java code directly.,It interprets Java code line by line.,It translates Java code into binary format.,It compiles binary code into Java code.,3
+"Based on the text, what is an expression in programming?",A single variable.,A single operator.,"A series of variables, operators, and method calls evaluating to a single value.",A complete program.,3
+The text describes a variable as:,An operator that performs arithmetic calculations.,A fixed value that cannot be changed.,An item of data named by an identifier.,A sequence of instructions.,3
+What is the base of the binary number system?,8,10,16,2,4
+The text states that a single 0 or 1 entry in memory is called a:,Byte,Kilobyte,Bit,Megabyte,3
+Java's handling of memory management implies that programmers primarily need to focus on:,Memory allocation strategies,Low-level memory operations,Data types,Binary code manipulation,3
+"What is the primary function of an identifier in a computer program, as described in the text?",To reserve memory space for data values.,To represent a location in memory holding a data value.,To define the data type of a variable.,To specify the program's execution flow.,2
+Which of the following is NOT a valid identifier naming convention according to the text?,Using a combination of letters and digits.,Starting the identifier with a digit.,Including underscore characters.,Using a mix of uppercase and lowercase letters.,2
+"The text mentions three categories of identifiers.  Which category includes identifiers like ""String"" and ""System""?",Identifiers chosen by the current programmer.,Identifiers reserved for special purposes.,Identifiers chosen by other programmers.,Identifiers defined by the operating system.,3
+"According to the provided text, what does the term ""reserved word"" refer to?",Words that can be used for variable names.,Words that have special meanings within the programming language.,Words that are ignored by the compiler.,Words that are automatically generated by the compiler.,2
+The example code snippet demonstrates the use of which reserved word to define a class?,`main`,`static`,`void`,`public class`,4
+"Considering case sensitivity, how many unique identifiers are represented by ""unique"", ""UNIQUE"", and ""uniQUE""?",1,2,3,0,3
+"Based on the text, which of the following identifiers is INVALID?",`myvar`,`name`,`2cool`,`_validIdent`,3
+What does the text imply about how computer memory stores data?,It stores data in a human-readable format.,It stores data as organized files.,It stores data as arbitrary bit patterns.,It stores data only in decimal format.,3
+"The phrase ""back in the bucket"" is used in the text, likely to illustrate what concept?",The process of compiling code.,Memory allocation for variables.,Data type conversion.,Error handling in programming.,2
+The text mentions `System.out.println`.  What is the likely purpose of this code segment?,To declare a variable.,To define a function.,To print output to the console.,To read input from the user.,3
+What is the primary factor determining the meaning of a bit pattern?,The number of bits in the pattern.,The memory location where the pattern is stored.,Its designated data type.,The programming language used.,3
+How many distinct values can be represented using 10 bits?,10,100,1024,20,3
+"Which of the following is NOT a characteristic of a ""byte"" data type as described in the text?",It uses 8 bits.,It can represent 256 distinct values.,It is exclusively used for unsigned integers.,It can represent both positive and negative values.,3
+What is the fundamental difference between primitive and object data types in Java (as implied in the text)?,"Primitive types are faster, object types are more versatile.","Primitive types are built into Java, object types are user-defined.","Primitive types consume less memory, object types consume more.","Primitive types are numerical, object types are textual.",2
+"In the context of floating-point numbers, what do the bits represent?",Only the magnitude of the number.,Only the integer portion of the number.,"The sign, mantissa, and exponent.",The binary representation of the number's ASCII code.,3
+"What is the correct way to declare an integer variable named ""count"" in Java (based on the provided example)?",int count;,Int count;,int Count;,integer count;,1
+Which of the following variable declarations is INVALID in Java according to the text?,`int x;`,`float y;`,`int float;`,`int myVariable;`,3
+Why is it crucial to declare variables before using them in Java? (Infer from the text),To improve code readability.,To optimize memory allocation.,It's a syntax requirement of the language.,To prevent runtime errors related to undefined variables.,3
+"What does the text refer to as ""operands"" in arithmetic expressions?","Mathematical operators (+, -, *, /)",The result of the expression.,Constants and variables.,The data types involved in the expression.,3
+"Based on the information about bits and values, how many bits would be needed to represent 65,536 distinct values?",12 bits,16 bits,8 bits,32 bits,2
+What will be the value of 'answer' after the following Java code executes: `int answer = 15 / 4;`?,3.75,3,4,11,2
+What will be the value of 'answer' after the following Java code executes: `double answer = 15 / 4;`?,3.75,3,4,3.0,2
+What will be the value of 'answer' after the following Java code executes: `double answer = 15.0 / 4;`?,3,4,3.75,11,3
+What will be the value of 'answer' after the following Java code executes: `int answer = 15 % 4;`?,3,4,3.75,0,1
+What is the result of the expression `(5 == 5) && (10 != 10)` in Java?,true,false,1,0,2
+What is the result of the expression `(5 == 5) || (10 != 10)` in Java?,true,false,1,0,1
+"If `int a = 2; int b = 3; int c = 4;`, what will be the result of `(a < b) && (b < c)`?",true,false,1,0,1
+"If `int a = 2; int b = 3; int c = 4;`, what will be the result of `(a > b) || (b < c)`?",true,false,1,0,1
+What does the expression `X++` do in Java?,Increments X by 2.,Decrements X by 1.,Increments X by 1 after the current expression is evaluated.,Increments X by 1 before the current expression is evaluated.,3
+"Assuming `int a = 2; int b = 2; int c = 3; int d = 4;`,  what is the result of `(a == b) || (c == d)`?",true,false,1,0,1

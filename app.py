@@ -17,6 +17,7 @@ os.environ["GEMINI_API_KEY"] ="AIzaSyDrQtrws0tl_9K3ZocgUhtPSt8-UdajPC0"
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "http://localhost:4200"}})
 
+
 def get_leaderboard():
     try:
         with open('leaderboard.json', 'r') as f:
@@ -28,6 +29,8 @@ def get_leaderboard():
 @app.route('/leaderboard', methods=['GET'])
 def leaderboard():
     return jsonify(get_leaderboard())
+
+
 
 @app.route('/start-quiz', methods=['POST'])
 def start_quiz():
@@ -51,6 +54,8 @@ def upload_pdf():
         questions = generate_questions_from_pdf(file_path)
         return jsonify({'questions': questions})
     return jsonify({'error': 'Invalid file format'}), 400
+
+
 
 def generate_questions_from_pdf(file_path):
     # Read PDF text
@@ -155,6 +160,7 @@ def generate_quiz_with_gemini(text):
 
     print("Generated questions:", generated_questions)
     return generated_questions
+
 
 if __name__ == '__main__':
     app.run(debug=True)

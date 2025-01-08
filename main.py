@@ -76,7 +76,6 @@ def get_leaderboard():
     except FileNotFoundError:
         leaderboard = []
     return leaderboard
-
 def start_quiz(username):
     pathCSV = "generated_questions.csv"
     with open(pathCSV, newline='\n', encoding='utf-8') as f:
@@ -94,8 +93,8 @@ def start_quiz(username):
 
     qNo = 0
     qTotal = len(dataAll)
-
-    while True:
+    boucle = True
+    while boucle:
         success, img = cap.read()
         if not success:
             print("Failed to capture image")
@@ -103,9 +102,9 @@ def start_quiz(username):
 
         img = cv2.flip(img, 1)
         hands, img = detector.findHands(img, flipType=False)
+
         if qNo < qTotal:
             mcq = mcqList[qNo]
-
             img, bbox = cvzone.putTextRect(img, mcq.question, [100, 100], 1, 4, offset=10, border=1, colorR=(200, 200, 200), colorT=(0, 0, 0), font=cv2.FONT_HERSHEY_SIMPLEX)
             img, bbox1 = cvzone.putTextRect(img, mcq.choice1, [100, 250], 1, 3, offset=10, border=1, colorR=(200, 200, 200), colorT=(0, 0, 0), font=cv2.FONT_HERSHEY_SIMPLEX)
             img, bbox2 = cvzone.putTextRect(img, mcq.choice2, [600, 250], 1, 3, offset=10, border=1, colorR=(200, 200, 200), colorT=(0, 0, 0), font=cv2.FONT_HERSHEY_SIMPLEX)
@@ -143,8 +142,10 @@ def start_quiz(username):
             img, _ = cvzone.putTextRect(img, f'Your Score: {score}%', [700, 300], 2, 2, offset=50, border=5, colorR=(200, 200, 200), colorT=(0, 0, 0), font=cv2.FONT_HERSHEY_SIMPLEX)
             cv2.imshow("Img", img)
             cv2.waitKey(1)
+            cap.release()
+            cv2.destroyAllWindows()
+            boucle = False
             return score
-
 
         barValue = 150 + (950 // qTotal) * qNo
         cv2.rectangle(img, (150, 600), (barValue, 650), (0, 255, 0), cv2.FILLED)
